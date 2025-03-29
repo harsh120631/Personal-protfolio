@@ -1,1 +1,17 @@
 // this file  include such as reset style for html and body element selector and so this also include a varialbe ffor scss
+
+.tech-stack {
+    display: flex;
+    gap: 8px;
+    margin: 8px 0;
+  }
+  
+  .tech-stack span {
+    background-color: #6A9C89; /* Or your chosen color */
+    color: #fff;
+    padding: 4px 10px;
+    border-radius: 12px;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  
