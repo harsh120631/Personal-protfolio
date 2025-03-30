@@ -1,16 +1,12 @@
-.tech-stack {
-  gap: 8px;
-  margin: 8px 0;
-  display: flex;
+*, :before, :after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
 }
 
-.tech-stack span {
-  color: #fff;
-  background-color: #6a9c89;
-  border-radius: 12px;
-  padding: 4px 10px;
-  font-size: 14px;
-  font-weight: 500;
+body {
+  font-weight: 300;
+  line-height: 1.6;
 }
 
 p {
