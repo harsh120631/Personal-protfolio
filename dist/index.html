@@ -9,10 +9,253 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="/favicon.c5ec8b79.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <script src="/index.e37f48ea.js" defer=""></script>
     <title>Harsh Protfolio</title>
   </head>
   <body>
-    
+    <!-- Navigation -->
+    <div class="navigation">
+      <div class="navigation__logo"><img src="/favicon.c5ec8b79.ico" alt=""></div>
+      <ul class="navigation__list">
+        <li class="navigation__item">
+          <a href="#home" class="navigation__link">Home Page</a>
+        </li>
+        <li class="navigation__item">
+          <a href="#About" class="navigation__link">About Me</a>
+        </li>
+        <li class="navigation__item">
+          <a href="#home" class="navigation__link">My Work</a>
+        </li>
+        <li class="navigation__item">
+          <a href="#home" class="navigation__link">Contact us</a>
+        </li>
+        <li class="navigation__item">
+          <a href="#home" class="navigation__link">Learn</a>
+        </li>
+      </ul>
+    </div>
+
+    <!-- header code -->
+    <header class="header">
+      <div class="header__text">
+        <h1 class="header__heading">Hi, I'm Harsh — A Frontend Developer.</h1>
+        <h3 class="header__sub--heading">
+          I create websites that are clean, responsive, and easy to navigate,
+          ensuring users have a smooth and enjoyable experience on any device.
+        </h3>
+        <div class="header__btn">
+          <button class="header__btn header__btn--first">See My Project</button>
+          <button class="header__btn header__btn--second">About Me</button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main section -->
+    <main>
+      <!-- section about Me page -->
+      <section class="About-me">
+        <div class="About-me__text">
+          <h3 class="About-me__heading">Who Am I!</h3>
+          <h3 class="About-me__sub--heading">
+            Hi, I'm Harsh — a frontend developer from Fatehgarh Sahib, Punjab,
+            India. I'm 18 years old and have been working in frontend
+            development for the past year. My journey began with learning from
+            Jonas Schmedtmann, a fantastic Udemy instructor. A big shoutout to
+            him for making web development concepts easy to understand and
+            inspiring me to build great websites.
+          </h3>
+          <button class="About-me__btn">Resume</button>
+        </div>
+        <div class="About-me__img"></div>
+      </section>
+
+      <!-- section skill section -->
+      <section class="skill">
+        <div class="skill__text">
+          <div class="skill__heading">Skill section</div>
+          <div class="skill__showcase">
+            <!-- first skill showcase -->
+            <div class="skill__showcase--html">
+              <div class="skill__showcase__html--logo">
+                <i class="fa-brands fa-html5"></i>
+              </div>
+              <div class="skill__showcase__html--heading">Html</div>
+              <div class="skill__showcase__html--sub-heading">
+                I create clean and well-structured web pages using HTML that are
+                easy to understand and maintain
+              </div>
+            </div>
+
+            <!-- second skill showcase -->
+            <div class="skill__showcase--css">
+              <div class="skill__showcase__css--logo">
+                <i class="fa-brands fa-css3-alt"></i>
+              </div>
+              <div class="skill__showcase__css--heading">Css</div>
+              <div class="skill__showcase__css--sub-heading">
+                I use JavaScript to create interactive and dynamic web
+                experiences.I write modern code that is easy to understand and
+                maintain.
+              </div>
+            </div>
+
+            <!-- Third skill showcase -->
+            <div class="skill__showcase--html">
+              <div class="skill__showcase__html--logo">
+                <i class="fa-brands fa-js"></i>
+              </div>
+              <div class="skill__showcase__html--heading">Html</div>
+              <div class="skill__showcase__html--sub-heading"></div>
+            </div>
+          </div>
+          <button class="skill__btn">Explore My Skills</button>
+        </div>
+      </section>
+
+      <!-- section for project -->
+      <section class="Project">
+        <h1 class="Project__heading">My Projects</h1>
+        <p class="project__sub--heading">
+          Explore collection of my finest projects
+        </p>
+        <div class="Project__showcase">
+          <!-- Showcase of first project -->
+
+          <div class="Project__showcase--netflix">
+            <div class="Project__showcase--netflix_video"></div>
+            <div class="Project__showcase--netflix_text">
+              <h2>Netflix clone</h2>
+              <p>
+                A clean and responsive Netflix clone designed to showcase my
+                skills in HTML and CSS. Features an engaging UI with a modern
+                look and feel
+              </p>
+            </div>
+            <button class="Project__showcase--netflix_btn">View Project</button>
+          </div>
+
+          <!-- Showcase of second project -->
+
+          <div class="Project__showcase--Realestate">
+            <div class="Project__showcase--Realestate_video"></div>
+            <div class="Project__showcase--Realestate_text">
+              <h2>Real Estate Website</h2>
+              <p>
+                A sleek and professional real estate website built with HTML and
+                SCSS. Designed for seamless navigation and improved user
+                experience.
+              </p>
+            </div>
+            <button class="Project__showcase--Realestate_btn">
+              View Project
+            </button>
+          </div>
+
+          <!-- Showcase of third project -->
+
+          <div class="Project__showcase--Recipe">
+            <div class="Project__showcase--Recipe_video"></div>
+            <div class="Project__showcase--Recipe_text">
+              <h2>Find Food Recipe Web App</h2>
+              <p>
+                A clean and responsive Netflix clone designed to showcase my
+                skills in HTML and CSS. Features an engaging UI with a modern
+                look and feel
+              </p>
+            </div>
+            <button class="Project__showcase--Recipe_btn">View Project</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- contact us page -->
+      <section class="Contact-us">
+        <div class="Contact-us__user--info">
+          <h1 class="Contact-us__user--heading">Get in Touch</h1>
+          <p class="Contact-us__user--sub-heading">
+            Feel free to drop us message below!
+          </p>
+          <form class="Contact-us__user--form">
+            <input type="text" placeholder="Your name" required="">
+            <input type="email" placeholder="Your email" required="">
+            <textarea placeholder="Type your message here" rows="4" required=""></textarea>
+            <button type="submit">SEND</button>
+          </form>
+        </div>
+        <div class="Contact-us__our--info">
+          <h1 class="Contact-us__our--heading">Contact Us</h1>
+          <div class="Contact-us__our--text">
+            <div class="Contact-us__our--location">
+              <div class="Contact-us__our--location__logo">
+                <i class="fa-thin fa-location-dot"></i>
+              </div>
+              <div class="Contact-us__our--location__text">?</div>
+            </div>
+            <div class="Contact-us__our--email">
+              <div class="Contact-us__our--email__logo">
+                <i class="fa-thin fa-envelope"></i>
+              </div>
+              <div class="Contact-us__our--email__text">
+                harshasus00@gmial.com
+              </div>
+            </div>
+            <div class="Contact-us__our--Twitter">
+              <div class="Contact-us__our--Twitter__logo">
+                <i class="fa-brands fa-x-twitter"></i>
+              </div>
+              <div class="Contact-us__our--Twitter__text">Twitter</div>
+            </div>
+            <div class="Contact-us__our--number">
+              <div class="Contact-us__our--number__logo">
+                <i class="fa fa-phone"></i>
+              </div>
+              <div class="Contact-us__our--number__text">9781386076</div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- footer -->
+    <footer>
+      <div class="footer__text">
+        <div class="footer__logo">logo</div>
+        <div class="footer__text--link">
+          <ul class="footer navigation__list">
+            <li class="navigation__item">
+              <a href="#home" class="navigation__link">Home Page</a>
+            </li>
+            <li class="navigation__item">
+              <a href="#About" class="navigation__link">About Me</a>
+            </li>
+            <li class="navigation__item">
+              <a href="#home" class="navigation__link">My Work</a>
+            </li>
+            <li class="navigation__item">
+              <a href="#home" class="navigation__link">Contact us</a>
+            </li>
+            <li class="navigation__item">
+              <a href="#home" class="navigation__link">Learn</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__social--logo">
+          <ul>
+            <li>logo</li>
+            <li>logo</li>
+            <li>logo</li>
+            <li>logo</li>
+            <li>logo</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__copywright">
+        <p class="footer__copywright--text">© 2025 Harsh Portfolio. All rights reserved.</p>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of services</a>
+        <a href="#">Cookie Settings</a>
+      </div>
+    </footer>
   </body>
 </html>
