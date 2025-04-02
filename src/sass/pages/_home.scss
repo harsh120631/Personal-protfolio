@@ -1,8 +1,10 @@
-// so this is used for specfic style for a page
+// so this is used for specfic style for a page\\
+@use "../abstract/variable" as *;
 h3{
-    font-family: 'Poppins';
+    font-family: $font-primary;
+    color: $color-primary;
     font-weight: 600;
-}
+};
 p{
-    font-family: 'Inter';
+    font-family: $font-display;
 }

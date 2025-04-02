@@ -15,11 +15,12 @@ p {
 }
 
 h3 {
-  font-family: Poppins;
+  color: #55c57a;
+  font-family: Poppins, sans-serif;
   font-weight: 600;
 }
 
 p {
-  font-family: Inter;
+  font-family: Inter, sans-serif;
 }
 /*# sourceMappingURL=index.f7626f62.css.map */
