@@ -22,9 +22,10 @@ h1 {
 }
 
 .navigation {
+  background-color: #ecf2f7;
   justify-content: space-between;
   align-items: center;
-  padding: 1.2rem 2rem;
+  padding: 1.8rem 2.8rem;
   display: flex;
 }
 
@@ -32,6 +33,11 @@ h1 {
   align-items: center;
   font-size: 1.6rem;
   list-style: none;
+  transition: all 2s;
+  display: flex;
+}
+
+.navigation__logo {
   display: flex;
 }
 
@@ -43,6 +49,11 @@ h1 {
   color: #080704;
   font-family: inherit;
   text-decoration: none;
+  transition: all .4s;
+}
+
+.navigation__link:hover {
+  color: #098af4;
 }
 
 .navigation__btn {
@@ -52,13 +63,15 @@ h1 {
   cursor: pointer;
   background: linear-gradient(90deg, #ff6f61, #ff8c61);
   border: none;
-  border-radius: 1rem;
-  padding: .9rem 1.8rem;
+  border-radius: 1.1rem;
+  padding: .8rem 1.9rem;
   font-family: inherit;
+  transition: all .3s;
 }
 
 .navigation__btn:hover {
-  color: red;
+  background: linear-gradient(90deg, red, #00f);
+  transform: translateY(-.5rem);
 }
 
 p {
