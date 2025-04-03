@@ -1,0 +1,46 @@
+@use "../abstract/variable" as *;
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.2rem 2rem;
+    align-items: center;
+
+    // &__logo{
+
+    // }
+
+    &__list{
+        font-size: $Defaultfont-size;
+        list-style: none;
+        display: flex;
+        align-items: center;
+        
+    }
+    &__item {
+        &:not(:last-child){
+            margin-right: 2.8rem;
+        }
+        
+    }
+    &__link{
+        color: #080704;
+        font-family: inherit;
+        text-decoration: none;
+    }
+    &__btn{
+        text-align: center;
+        font-size: inherit;
+        font-family: inherit;
+        background: $color-secondary;
+        padding: .9rem 1.8rem;
+        color: white;
+        border: none;
+        border-radius: 1rem;
+        cursor: pointer;
+
+        &:hover{
+            color: red;
+        }
+    }
+}
