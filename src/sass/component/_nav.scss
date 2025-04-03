@@ -3,9 +3,9 @@
 .navigation{
     display: flex;
     justify-content: space-between;
-    padding: 1.2rem 2rem;
+    padding: 1.8rem 2.8rem;
     align-items: center;
-
+    background-color: #ECF2F7;
     // &__logo{
 
     // }
@@ -15,7 +15,11 @@
         list-style: none;
         display: flex;
         align-items: center;
+        transition: all 2s;
         
+    }
+    &__logo{
+        display: flex;
     }
     &__item {
         &:not(:last-child){
@@ -27,20 +31,29 @@
         color: #080704;
         font-family: inherit;
         text-decoration: none;
+        transition: all .4s;
+
+        &:hover{
+            color: rgb(9, 138, 244);
+        }
     }
     &__btn{
         text-align: center;
         font-size: inherit;
         font-family: inherit;
         background: $color-secondary;
-        padding: .9rem 1.8rem;
+        padding: .8rem 1.9rem;
         color: white;
         border: none;
-        border-radius: 1rem;
+        border-radius: 1.1rem;
         cursor: pointer;
+        transition: all .3s;
 
         &:hover{
-            color: red;
+            background:linear-gradient(90deg,red,blue) ;
+           transform: translateY(-.5rem);
         }
+        
     }
+   
 }
