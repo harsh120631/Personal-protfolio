@@ -17,8 +17,38 @@ html {
 h1 {
   backface-visibility: hidden;
   letter-spacing: .1rem;
+  color: #fff;
   font-family: Poppins, sans-serif;
+  font-size: 5rem;
   font-weight: 600;
+}
+
+.reusable__btn {
+  text-align: center;
+  font-size: inherit;
+  color: #fff;
+  cursor: pointer;
+  background: linear-gradient(90deg, #ff6f61, #ff8c61);
+  border: none;
+  border-radius: 1.1rem;
+  padding: .8rem 1.9rem;
+  font-family: inherit;
+  transition: all .3s;
+}
+
+.reusable__btn:hover {
+  background: linear-gradient(90deg, #e86255, #ed4e13);
+  transform: translateY(-.5rem);
+}
+
+.btn__white {
+  font-family: inherit;
+  font-size: inherit;
+  cursor: pointer;
+  border: none;
+  border-radius: .8rem;
+  padding: .8rem 1.9rem;
+  font-weight: 500;
 }
 
 .navigation {
@@ -45,47 +75,55 @@ h1 {
   margin-right: 2.8rem;
 }
 
-.navigation__link {
+.navigation__link, .navigation__link:link, .navigation__link:visited {
   color: #080704;
   font-family: inherit;
   text-decoration: none;
   transition: all .4s;
 }
 
-.navigation__link:hover {
+.navigation__link:hover, .navigation__link:active {
   color: #098af4;
 }
 
-.navigation__btn {
-  text-align: center;
-  font-size: inherit;
+.header {
+  background: #4682b4;
+  height: 100vh;
+}
+
+.header__text {
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.8rem;
+  width: 50%;
+  height: 100%;
+  padding: 3rem 5rem;
+  display: flex;
+}
+
+.header__sub--heading {
   color: #fff;
-  cursor: pointer;
-  background: linear-gradient(90deg, #ff6f61, #ff8c61);
-  border: none;
-  border-radius: 1.1rem;
-  padding: .8rem 1.9rem;
-  font-family: inherit;
-  transition: all .3s;
+  font-size: 1.6rem;
+  font-weight: 400;
 }
 
-.navigation__btn:hover {
-  background: linear-gradient(90deg, red, #00f);
-  transform: translateY(-.5rem);
+.header__btn {
+  text-align: center;
+  flex-direction: row;
+  gap: 2rem;
+  font-size: 1.7rem;
+  display: flex;
 }
 
-p {
-  color: red;
-  font-family: sans-serif;
+.header__btn--first, .header__btn--second {
+  border: 1.5rem;
+  padding: 1.2rem 2rem;
 }
 
-h3 {
-  color: #4682b4;
-  font-family: Poppins, sans-serif;
-  font-weight: 600;
-}
-
-p {
-  font-family: Inter, sans-serif;
+#particles-js {
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
 }
 /*# sourceMappingURL=index.f7626f62.css.map */

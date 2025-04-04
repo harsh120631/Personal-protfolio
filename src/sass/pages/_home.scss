@@ -1,11 +1,4 @@
 // so this is used for specfic style for a page\\
 @use "../abstract/variable" as *;
-h3{
-    font-family: $font-primary;
-    color: $color-primary;
-    font-weight: 600;
-};
-p{
-    font-family: $font-display;
-}
-    
+
+
