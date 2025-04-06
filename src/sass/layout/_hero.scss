@@ -3,7 +3,9 @@
 
 .header{
     background: steelblue;
-    height: 100vh;
+    height: 92vh;
+    position: relative;
+    z-index: 1;
 
     &__text{
         height: 100%;
@@ -12,12 +14,14 @@
         gap: 1.8rem;
         flex-direction: column;
         justify-content: center;
-        padding: 3rem 5rem;
+        padding: 3.5rem 5rem;
+        z-index: 2;
     }
     &__sub--heading{
         font-size: 1.6rem;
         color: white;
         font-weight: 400;
+        z-index: 2;
     }
     &__btn{
         display: flex;
@@ -30,6 +34,11 @@
     &__btn--first , &__btn--second{
         padding: 1.2rem 2rem;
         border: 1.5rem;
+        z-index: 2;
+    }
+    &__btn--second:hover{
+        transition: all .3s;
+        background-color: red;
     }
 
 }

@@ -55,7 +55,7 @@ h1 {
   background-color: #ecf2f7;
   justify-content: space-between;
   align-items: center;
-  padding: 1.8rem 2.8rem;
+  padding: 1.8rem 3.2rem;
   display: flex;
 }
 
@@ -68,6 +68,7 @@ h1 {
 }
 
 .navigation__logo {
+  cursor: pointer;
   display: flex;
 }
 
@@ -87,22 +88,26 @@ h1 {
 }
 
 .header {
+  z-index: 1;
   background: #4682b4;
-  height: 100vh;
+  height: 92vh;
+  position: relative;
 }
 
 .header__text {
+  z-index: 2;
   flex-direction: column;
   justify-content: center;
   gap: 1.8rem;
   width: 50%;
   height: 100%;
-  padding: 3rem 5rem;
+  padding: 3.5rem 5rem;
   display: flex;
 }
 
 .header__sub--heading {
   color: #fff;
+  z-index: 2;
   font-size: 1.6rem;
   font-weight: 400;
 }
@@ -116,8 +121,14 @@ h1 {
 }
 
 .header__btn--first, .header__btn--second {
+  z-index: 2;
   border: 1.5rem;
   padding: 1.2rem 2rem;
+}
+
+.header__btn--second:hover {
+  background-color: red;
+  transition: all .3s;
 }
 
 #particles-js {
