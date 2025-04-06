@@ -3,7 +3,7 @@
 .navigation{
     display: flex;
     justify-content: space-between;
-    padding: 1.8rem 2.8rem;
+    padding: 1.8rem 3.2rem;
     align-items: center;
     background-color: #ECF2F7;
 
@@ -19,6 +19,7 @@
     }
     &__logo{
         display: flex;
+        cursor: pointer;
     }
     &__item {
         &:not(:last-child){
